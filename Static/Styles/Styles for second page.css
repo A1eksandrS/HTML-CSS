@@ -1,0 +1,18 @@
+/* * {
+    margin: 0px;
+} */
+
+.container {
+    display: inline-block;
+    background-color:aqua;
+    text-align: center;
+}
+
+p {
+    background-color: greenyellow;
+    font-size: 36px;
+}
+
+.main {
+    text-align: center;
+}
