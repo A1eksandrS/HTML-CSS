@@ -1,0 +1,9 @@
+<div> - container
+
+<p> - Paragraph
+<h> - header
+<span> - container for inline element (Строчный элемент)
+<a> - link  <a href="https://website" target="_blank">text</a>    (target="_blank") for opening in new window
+<Li> - numbered list
+<Ol> - numbered list by number or words    -- (Ul) - Unnumerated list
+<!-- --> - comment
