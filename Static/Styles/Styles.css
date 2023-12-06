@@ -1,4 +1,11 @@
 span {
     font-style: italic;
     background-color: rgb(33, 128, 211);
+
 }
+
+.bold-text {
+    font-weight: bold;
+    background-color:white;
+}
+
