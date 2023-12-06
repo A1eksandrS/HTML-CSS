@@ -12,3 +12,46 @@ span {
 .First-image {
     width: 250px;
 }
+.list-container {
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 20px;
+}
+
+.list-container>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    float: right;
+}
+
+.table {
+    float: right;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.2px;
+    margin-left: 10px;
+}
+.table-name {
+    padding: 0.5px;
+    margin-bottom: 5px;
+    background-color:cadetblue;
+    font-weight: bold;
+}
+
+.table>div {
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.first-logo {
+    max-width: 70px;
+}
+
+.third-logo {
+    max-width: 70px;
+}
