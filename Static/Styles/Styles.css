@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 span {
     font-style: italic;
     background-color: rgb(33, 128, 211);
@@ -54,4 +59,74 @@ img {
 
 .third-logo {
     max-width: 70px;
+}
+
+.text-page {
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Top navigaton panel */
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(205, 208, 226);
+}
+
+.nav-cont>nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-cont>nav>ul>li {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+
+@media (max-width: 900px) {
+    .nav-cont {
+        flex-direction: column;
+    }
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 15% ;
+    background-color: aquamarine;
+
+}
+
+.section {
+    width: 81%;
+}
+
+.header>ul {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.header>div {
+    width: 100% ;
+
+}
+.header>div>img {
+    width: 100%;
+    margin-bottom: 15px;
 }
