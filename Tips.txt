@@ -7,3 +7,5 @@
 <Li> - numbered list
 <Ol> - numbered list by number or words    -- (Ul) - Unnumerated list
 <!-- --> - comment
+<nav> - navigation panel
+<input> - text input   <input type="text" placeholder="Search">  placeholder - text in frame
