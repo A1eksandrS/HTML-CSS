@@ -9,3 +9,27 @@
 <!-- --> - comment
 <nav> - navigation panel
 <input> - text input   <input type="text" placeholder="Search">  placeholder - text in frame
+
+
+
+Weight 
+
+tag = 1
+class = 10
+tag.class = 10+1
+id = 100
+tag.id = 100+1
+style after tag = 1000
+!important --example-- .class{
+                          border-style: solid !important;
+                        }
+
+
+
+PX
+
+standart = 16px
+
+1em and 1 rem = 16px
+1em = 100% и наследуется от родителя
+1rem = 100% и наследуется от главного родителя
